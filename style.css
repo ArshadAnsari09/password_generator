@@ -1,6 +1,6 @@
 body {
-    background: url(bg.jpg) no-repeat;
-    background-size: 100vw 100vh;
+    background-color: #5b96fc;
+    background-image: url("https://www.transparenttextures.com/patterns/straws.png");
     margin: 0;
     color: white;
     min-height: 100vh;
@@ -11,13 +11,13 @@ body {
   }
   
   .container {
-    background-color: #8b2821;
-background-image: url("https://www.transparenttextures.com/patterns/diagmonds.png");
+    background-color: #60bedb;
+    background-image: url("https://www.transparenttextures.com/patterns/checkered-pattern.png");
     padding: 3rem;
     border-radius: 1rem;
     height: 50vh;
     width: 40vw;
-    border: 2px solid black;
+    border: 1px solid black;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -31,6 +31,7 @@ background-image: url("https://www.transparenttextures.com/patterns/diagmonds.pn
     column-gap: 3rem;
     justify-content: center;
     align-items: center;
+    cursor: pointer;
   }
   
   .title {
